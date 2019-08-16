@@ -7,7 +7,7 @@ public class ArraysExercises {
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(numbers));
 
-        Person[] personArr = {new Person("Nadia"), new Person("Alexandra"), new Person("Jason")};
+        Person[] personArr = {new Person("Joey"), new Person("Jo"), new Person("Jose")};
 
         for (Person person : personArr) {
             System.out.println(person.getName());
